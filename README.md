@@ -1,0 +1,1 @@
+# vagrant-docker-jenkins-jhipster

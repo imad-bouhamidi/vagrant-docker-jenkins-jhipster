@@ -15,6 +15,6 @@ ssh-keygen -b 4096 -t rsa -f ~/.ssh/id_rsa -N '' <<< 'y'
 
 # installing zip and unzip needed for jenkins plugin script
 echo "======= Installing Zip & Unzip ======"
-sudo apt-get install zip unzip
+sudo apt-get install -y zip unzip
 echo "======= Installing sshpass ======"
-sudo apt-get install sshpass
+sudo apt-get install -y --force-yes sshpass
